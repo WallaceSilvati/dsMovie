@@ -4,6 +4,7 @@
      --sp-bar-color: #4D41C0;
      --sp-bar-char: #FFFFFF;
      --title-font-color: #4A4A4A;
+     --text-light-gay: #aaa
 }
 *{
      box-sizing: border-box;
@@ -96,4 +97,54 @@ main{
 .dsmovie-form-container{
      padding: 40px 0 ;
      max-width: 480px;
+}
+
+.dsmovie-form{
+     width: 100%;
+}
+
+.dsmovie-form-description{
+     background-color:var(--sp-bar-char) ;
+     padding: 20px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     border-radius: 0 0 8px 8px;}
+
+.dsmovie-btn-salvar, .dsmovie-btn-salvar{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     width: 180px;
+     height: 40px;
+     background-color: var(--sp-bar-color);
+     font-size: 14px;
+     font-weight: 700;
+     color: var(--sp-bar-char);
+     border-radius: 4px;
+     border: 0;
+}
+.dsmovie-form-group{
+     margin-bottom: 20px;
+}
+.dsmovie-form-btn-container{
+     
+     height: 100px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: space-between;
+}
+.dsmovie-form-group label{
+     color: var(--text-light-gay);
+     size: 12px;
+     font-weight: 400;
+}
+.dsmovie-form-description h3{
+     font-size: 13px;
+     color: var(--title-font-color);
+     font-weight: 700;
+     
+     text-align: center;
+     
 }
